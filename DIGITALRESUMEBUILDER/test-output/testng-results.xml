@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="32" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-02T21:15:53 IST" name="Default suite" finished-at="2024-06-02T21:16:20 IST" duration-ms="26572">
+    <groups>
+    </groups>
+    <test started-at="2024-06-02T21:15:53 IST" name="Default test" finished-at="2024-06-02T21:16:20 IST" duration-ms="26572">
+      <class name="DigitalResumeBuilder.TestClass">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:15:53 IST" name="Setup" finished-at="2024-06-02T21:15:59 IST" duration-ms="6138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="poslogin()[pri:1, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:15:59 IST" name="poslogin" finished-at="2024-06-02T21:16:00 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- poslogin -->
+        <test-method signature="sign()[pri:2, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:00 IST" name="sign" finished-at="2024-06-02T21:16:00 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="neglogin1()[pri:3, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:00 IST" name="neglogin1" finished-at="2024-06-02T21:16:01 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- neglogin1 -->
+        <test-method signature="home1()[pri:4, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:01 IST" name="home1" finished-at="2024-06-02T21:16:01 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home1 -->
+        <test-method signature="sign1()[pri:5, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:01 IST" name="sign1" finished-at="2024-06-02T21:16:01 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign1 -->
+        <test-method signature="neglogin2()[pri:6, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:01 IST" name="neglogin2" finished-at="2024-06-02T21:16:02 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- neglogin2 -->
+        <test-method signature="home2()[pri:7, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:02 IST" name="home2" finished-at="2024-06-02T21:16:02 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home2 -->
+        <test-method signature="sign2()[pri:8, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:02 IST" name="sign2" finished-at="2024-06-02T21:16:02 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign2 -->
+        <test-method signature="neglogin3()[pri:9, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:02 IST" name="neglogin3" finished-at="2024-06-02T21:16:02 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- neglogin3 -->
+        <test-method signature="forget()[pri:10, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:02 IST" name="forget" finished-at="2024-06-02T21:16:03 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forget -->
+        <test-method signature="sign3()[pri:11, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:03 IST" name="sign3" finished-at="2024-06-02T21:16:03 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign3 -->
+        <test-method signature="login2()[pri:12, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:03 IST" name="login2" finished-at="2024-06-02T21:16:04 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method signature="profile()[pri:13, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:04 IST" name="profile" finished-at="2024-06-02T21:16:04 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profile -->
+        <test-method signature="create()[pri:14, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:04 IST" name="create" finished-at="2024-06-02T21:16:04 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method signature="dat()[pri:15, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:04 IST" name="dat" finished-at="2024-06-02T21:16:04 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dat -->
+        <test-method signature="dat2()[pri:16, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:04 IST" name="dat2" finished-at="2024-06-02T21:16:04 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dat2 -->
+        <test-method signature="dat3()[pri:17, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:04 IST" name="dat3" finished-at="2024-06-02T21:16:04 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dat3 -->
+        <test-method signature="gend()[pri:18, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:04 IST" name="gend" finished-at="2024-06-02T21:16:04 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gend -->
+        <test-method signature="hschool()[pri:19, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:04 IST" name="hschool" finished-at="2024-06-02T21:16:16 IST" duration-ms="11522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hschool -->
+        <test-method signature="hschool2()[pri:20, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:16 IST" name="hschool2" finished-at="2024-06-02T21:16:16 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hschool2 -->
+        <test-method signature="hschool3()[pri:21, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:16 IST" name="hschool3" finished-at="2024-06-02T21:16:16 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hschool3 -->
+        <test-method signature="hschool4()[pri:22, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:16 IST" name="hschool4" finished-at="2024-06-02T21:16:16 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hschool4 -->
+        <test-method signature="hsper()[pri:23, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:16 IST" name="hsper" finished-at="2024-06-02T21:16:16 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hsper -->
+        <test-method signature="hsname()[pri:24, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:16 IST" name="hsname" finished-at="2024-06-02T21:16:16 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hsname -->
+        <test-method signature="hsyear()[pri:25, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:16 IST" name="hsyear" finished-at="2024-06-02T21:16:17 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hsyear -->
+        <test-method signature="logi()[pri:26, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:17 IST" name="logi" finished-at="2024-06-02T21:16:17 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logi -->
+        <test-method signature="si6()[pri:27, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:17 IST" name="si6" finished-at="2024-06-02T21:16:17 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- si6 -->
+        <test-method signature="prof()[pri:28, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:17 IST" name="prof" finished-at="2024-06-02T21:16:17 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prof -->
+        <test-method signature="mprof()[pri:29, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:17 IST" name="mprof" finished-at="2024-06-02T21:16:18 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mprof -->
+        <test-method signature="edtp()[pri:30, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:18 IST" name="edtp" finished-at="2024-06-02T21:16:19 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edtp -->
+        <test-method signature="edtn()[pri:31, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:19 IST" name="edtn" finished-at="2024-06-02T21:16:19 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edtn -->
+        <test-method signature="edto()[pri:32, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:19 IST" name="edto" finished-at="2024-06-02T21:16:20 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edto -->
+        <test-method signature="templ()[pri:33, instance:DigitalResumeBuilder.TestClass@4afcd809]" started-at="2024-06-02T21:16:20 IST" name="templ" finished-at="2024-06-02T21:16:20 IST" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\jagat\OneDrive\Desktop\DRB\DIGITALRESUMEBUILDER\path\to\chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\jagat\OneDrive\Desktop\DRB\DIGITALRESUMEBUILDER\path\to\chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at ict.kerala.project.LoginPage.setup(LoginPage.java:312)
+at DigitalResumeBuilder.TestClass.templ(TestClass.java:258)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\jagat\OneDrive\Desktop\DRB\DIGITALRESUMEBUILDER\path\to\chromedriver
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
+at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- templ -->
+      </class> <!-- DigitalResumeBuilder.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

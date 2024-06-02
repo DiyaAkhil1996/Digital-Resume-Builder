@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\jagat\AppData\Local\Temp\testng-eclipse--1532486864\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 1 failed,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="templ">templ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="dat">dat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="dat2">dat2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="dat3">dat3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="edtn">edtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="edto">edto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="edtp">edtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="forget">forget</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="gend">gend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="home1">home1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="home2">home2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="hschool">hschool</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="hschool2">hschool2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="hschool3">hschool3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="hschool4">hschool4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="hsname">hsname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="hsper">hsper</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="hsyear">hsyear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="logi">logi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="login2">login2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="mprof">mprof</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="neglogin1">neglogin1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="neglogin2">neglogin2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="neglogin3">neglogin3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="poslogin">poslogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="prof">prof</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="profile">profile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="si6">si6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="sign">sign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="sign1">sign1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="sign2">sign2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="DigitalResumeBuilder.TestClass" class="method navigator-link" hash-for-method="sign3">sign3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">DigitalResumeBuilder.TestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="templ">
+                  </a> <!-- templ -->
+                  <span class="method-name">templ</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: C:\Users\jagat\OneDrive\Desktop\DRB\DIGITALRESUMEBUILDER\path\to\chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
+	at ict.kerala.project.LoginPage.setup(LoginPage.java:312)
+	at DigitalResumeBuilder.TestClass.templ(TestClass.java:258)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalStateException: chromedriver must exist: C:\Users\jagat\OneDrive\Desktop\DRB\DIGITALRESUMEBUILDER\path\to\chromedriver
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)
+	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
+	... 33 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DigitalResumeBuilder.TestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dat">
+                  </a> <!-- dat -->
+                  <span class="method-name">dat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dat2">
+                  </a> <!-- dat2 -->
+                  <span class="method-name">dat2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dat3">
+                  </a> <!-- dat3 -->
+                  <span class="method-name">dat3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edtn">
+                  </a> <!-- edtn -->
+                  <span class="method-name">edtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edto">
+                  </a> <!-- edto -->
+                  <span class="method-name">edto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edtp">
+                  </a> <!-- edtp -->
+                  <span class="method-name">edtp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forget">
+                  </a> <!-- forget -->
+                  <span class="method-name">forget</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gend">
+                  </a> <!-- gend -->
+                  <span class="method-name">gend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="home1">
+                  </a> <!-- home1 -->
+                  <span class="method-name">home1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="home2">
+                  </a> <!-- home2 -->
+                  <span class="method-name">home2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hschool">
+                  </a> <!-- hschool -->
+                  <span class="method-name">hschool</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hschool2">
+                  </a> <!-- hschool2 -->
+                  <span class="method-name">hschool2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hschool3">
+                  </a> <!-- hschool3 -->
+                  <span class="method-name">hschool3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hschool4">
+                  </a> <!-- hschool4 -->
+                  <span class="method-name">hschool4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hsname">
+                  </a> <!-- hsname -->
+                  <span class="method-name">hsname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hsper">
+                  </a> <!-- hsper -->
+                  <span class="method-name">hsper</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hsyear">
+                  </a> <!-- hsyear -->
+                  <span class="method-name">hsyear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logi">
+                  </a> <!-- logi -->
+                  <span class="method-name">logi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login2">
+                  </a> <!-- login2 -->
+                  <span class="method-name">login2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mprof">
+                  </a> <!-- mprof -->
+                  <span class="method-name">mprof</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="neglogin1">
+                  </a> <!-- neglogin1 -->
+                  <span class="method-name">neglogin1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="neglogin2">
+                  </a> <!-- neglogin2 -->
+                  <span class="method-name">neglogin2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="neglogin3">
+                  </a> <!-- neglogin3 -->
+                  <span class="method-name">neglogin3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="poslogin">
+                  </a> <!-- poslogin -->
+                  <span class="method-name">poslogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="prof">
+                  </a> <!-- prof -->
+                  <span class="method-name">prof</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="profile">
+                  </a> <!-- profile -->
+                  <span class="method-name">profile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="si6">
+                  </a> <!-- si6 -->
+                  <span class="method-name">si6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign">
+                  </a> <!-- sign -->
+                  <span class="method-name">sign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign1">
+                  </a> <!-- sign1 -->
+                  <span class="method-name">sign1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign2">
+                  </a> <!-- sign2 -->
+                  <span class="method-name">sign2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign3">
+                  </a> <!-- sign3 -->
+                  <span class="method-name">sign3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jagat\AppData\Local\Temp\testng-eclipse--1532486864\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;DigitalResumeBuilder.TestClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'hschool')
+data.setCell(0, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(0, 3, 11522);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'edtp')
+data.setCell(1, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(1, 3, 1147);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'poslogin')
+data.setCell(2, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(2, 3, 894);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'forget')
+data.setCell(3, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(3, 3, 617);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'edto')
+data.setCell(4, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(4, 3, 559);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'login2')
+data.setCell(5, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(5, 3, 485);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'neglogin1')
+data.setCell(6, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(6, 3, 427);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'neglogin2')
+data.setCell(7, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(7, 3, 422);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'prof')
+data.setCell(8, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(8, 3, 421);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'mprof')
+data.setCell(9, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(9, 3, 417);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'neglogin3')
+data.setCell(10, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(10, 3, 392);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'si6')
+data.setCell(11, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(11, 3, 298);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'dat')
+data.setCell(12, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(12, 3, 184);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sign1')
+data.setCell(13, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(13, 3, 180);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'profile')
+data.setCell(14, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(14, 3, 174);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'create')
+data.setCell(15, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(15, 3, 165);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'sign2')
+data.setCell(16, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(16, 3, 157);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'sign3')
+data.setCell(17, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(17, 3, 155);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'sign')
+data.setCell(18, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(18, 3, 135);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'hsyear')
+data.setCell(19, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(19, 3, 128);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'logi')
+data.setCell(20, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(20, 3, 124);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'hschool2')
+data.setCell(21, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(21, 3, 103);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'edtn')
+data.setCell(22, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(22, 3, 102);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'hsper')
+data.setCell(23, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(23, 3, 102);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'home1')
+data.setCell(24, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(24, 3, 101);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'hsname')
+data.setCell(25, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(25, 3, 100);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'home2')
+data.setCell(26, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(26, 3, 96);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'gend')
+data.setCell(27, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(27, 3, 76);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'dat3')
+data.setCell(28, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(28, 3, 74);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'dat2')
+data.setCell(29, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(29, 3, 72);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'hschool4')
+data.setCell(30, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(30, 3, 57);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'hschool3')
+data.setCell(31, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(31, 3, 52);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'templ')
+data.setCell(32, 2, 'DigitalResumeBuilder.TestClass')
+data.setCell(32, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">DigitalResumeBuilder.TestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">poslogin</span>
+                <span class="method-start">6226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign</span>
+                <span class="method-start">7139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">neglogin1</span>
+                <span class="method-start">7281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">home1</span>
+                <span class="method-start">7731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign1</span>
+                <span class="method-start">7857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">neglogin2</span>
+                <span class="method-start">8052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">home2</span>
+                <span class="method-start">8513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign2</span>
+                <span class="method-start">8637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">neglogin3</span>
+                <span class="method-start">8823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forget</span>
+                <span class="method-start">9246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign3</span>
+                <span class="method-start">9878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login2</span>
+                <span class="method-start">10037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">profile</span>
+                <span class="method-start">10528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">10704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dat</span>
+                <span class="method-start">10881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dat2</span>
+                <span class="method-start">11065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dat3</span>
+                <span class="method-start">11137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">gend</span>
+                <span class="method-start">11215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hschool</span>
+                <span class="method-start">11293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hschool2</span>
+                <span class="method-start">22815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hschool3</span>
+                <span class="method-start">22935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hschool4</span>
+                <span class="method-start">22987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hsper</span>
+                <span class="method-start">23046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hsname</span>
+                <span class="method-start">23150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hsyear</span>
+                <span class="method-start">23250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logi</span>
+                <span class="method-start">23378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">si6</span>
+                <span class="method-start">23529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">prof</span>
+                <span class="method-start">23827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mprof</span>
+                <span class="method-start">24251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edtp</span>
+                <span class="method-start">24730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edtn</span>
+                <span class="method-start">25885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">edto</span>
+                <span class="method-start">25987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">templ</span>
+                <span class="method-start">26546 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
